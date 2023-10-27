@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+/* Apply styles to the questions container */
+.questions {
+    background-color: #f8fffe;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+/* Apply styles to the blockquote tags */
+blockquote {
+    border-left: 8px solid green;
+    height: 50px;
+    margin-bottom: 10px; /* Add margin at the bottom of each question for spacing */
+}
+
+/* Apply styles to the p tags within blockquotes */
+blockquote p {
+    margin: 0;
+    padding-left: 10px; /* Add some left padding for better visual alignment */
+}
